@@ -118,7 +118,7 @@ can be found on [this webpage from the software incubators](https://docs.python.
    ```
 3. Create a virtual environment:
    ```sh
-   python -m venv venv
+   python3 -m venv venv
    ```
    This creates a folder named `venv` that contains the isolated environment.
 
