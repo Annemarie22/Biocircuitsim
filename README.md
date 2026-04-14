@@ -99,15 +99,15 @@ Now you are ready for start working with Python. Before you start, you do need t
 
 ### i. Installing all the dependencies in a virtual environment
 Python is a widely used programming language. One of the main reasons for its success is the large amount of available
-code in the form of packages. Python packages are small bundles of scripts which enable the user to use code from other in
+code in the form of packages. Python packages are small bundles of scripts which enable the user to use code from others in
 a simple way. For example, there are packages for handling tables (pandas) or to implement scientific and statistical methods (scipy).
 These packages are maintained by members of the community and are constantly updated. This can cause a problem for reproducibility: functionalities
 and implementations might change or be removed from one version to another. Therefore, researchers created isolated environments
 where they specify the versions of the packages required to run their code. These virtual environments (venv) in Python 
 are isolated workspaces where you can install packages without affecting the global Python installation. This helps in 
-managing dependencies for different projects, and ensures that you can transfer projects easily to other users. It ius therefor
+managing dependencies for different projects, and ensures that you can transfer projects easily to other users. It is therefore
 a good practice to create a single venv for each project you open in Python. More information about how to use venvs in Python
-can be found on [this webpage from the software incubators](https://carpentries-incubator.github.io/fair-research-software/05-reproducible-dev-environment.html).
+can be found on [this webpage from the software incubators](https://docs.python.org/3/library/venv.html).
 
 #### Creating a Virtual Environment
 
