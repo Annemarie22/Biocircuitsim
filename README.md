@@ -7,7 +7,7 @@ study at the RWTH Aachen University. The aim of this practical class is twofold:
  2.  Give a basic introduction into boolean logic for the design of genetic circuits
 
 ## 1. Using git to access published work
-This small git tutorial is based on a course given by the [BioNT](https://carpentries-incubator.github.io/fair-research-software/index.html)
+This small git tutorial is based on a course given by the [BioNT](https://carpentries-incubator.github.io/fair-research-software/index.html).
 Git is a very commonly used version control system for text-based documents such as code. Git makes it easy to collaborate and 
 keep track of changes in a document. In the beginning it is difficult to grasp all the terms related to the version control system.
 For this tutorial, we will use the following terms:
@@ -23,7 +23,7 @@ For this tutorial, we will use the following terms:
 
 The best practise if you want to contribute to an exitising project is: fork the project to your own Github, and clone the forked project on your GitHub to your local machine
 If you are interested in how git works, please check out 
-[this](https://carpentries-incubator.github.io/fair-research-software/04-version-control.html) webpage.
+[this](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) webpage.
 
 FYI: git is the system, GitHub and GitLab are different servers for storing all the files. Most computational biotechnology
 work is shared on GitHub, but GitLab has more features. For your own work, we recommend using the [RWTH GitLab server](https://git.rwth-aachen.de/),
