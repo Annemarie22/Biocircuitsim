@@ -95,7 +95,7 @@ git remote -v
     ```
   
 ## 2. Understand and use boolean logic in genetic circuit design
-Now you are ready for start working with Python. Before you start, you do need to install all requirements.
+Now you are ready for start working with Python. Before you start, you do need to install all the required python packages.
 
 ### i. Installing all the dependencies in a virtual environment
 Python is a widely used programming language. One of the main reasons for its success is the large amount of available
