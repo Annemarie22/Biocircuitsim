@@ -32,11 +32,11 @@ as this server is located in Germany and thus compliant with the German Act on d
 ### i. Install the requirements
 Before you start with working in this repository, please install the following requirements correctly on your system:
 
-- [Command line tool](https://carpentries-incubator.github.io/fair-research-software/installation-instructions.html#command-line-terminal) (such as Bash, Zsh or Git Bash)
-- [Git version control program](https://carpentries-incubator.github.io/fair-research-software/installation-instructions.html#git-version-control-tool)
-- [GitHub account](https://carpentries-incubator.github.io/fair-research-software/installation-instructions.html#github-account)
-- [Python 3.9](https://carpentries-incubator.github.io/fair-research-software/installation-instructions.html#python-3-distribution) (or any python version >3.9)
-- [Visual Studio Code (VS Code)](https://carpentries-incubator.github.io/fair-research-software/installation-instructions.html#visual-studio-code), or any other integrated development environment (IDE)
+- **Command line tool** (such as Bash, Zsh or Git Bash)
+- **Git version control program**
+- **GitHub account**
+- **Python 3.9** (or any python version >3.9)
+- **Visual Studio Code (VS Code)**, or any other integrated development environment (IDE)
 
 ### ii. Fork and clone this repository
 If you find an interesting repository on GitHub or GitLab, you want to get it on your local machine. There are multiple options
