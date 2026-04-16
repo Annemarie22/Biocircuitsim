@@ -1,23 +1,24 @@
 # **Assignment: Designing a Genetic Circuit for Hierarchical Carbon Utilization in *Pseudomonas putida***
 
 ## **Background**
-Engineered probiotics are emerging as “live biotherapeutics”. Because of complicated interactions in microbial community, a harmless microbe can 
-become a pathogen in presence of a specific microbial species or when conditions change. In this case, a therapeutic which is only activated when both 
-microbial species is required. Engineering a microbe which produces an anti-microbial agent (e.g., an anti‑biofilm enzyme, a bacteriocin, or a CRISPR‑based kill‑switch) only when a combination of signals is present offers a solution.
+Engineered probiotics are emerging as “live biotherapeutics”. Because of complex interactions in microbial communities, a harmless microbe can become a pathogen in the presence of a specific microbial species or when environmental conditions change. In such cases, it is desirable to have a therapeutic that is only activated under very specific conditions. One possible solution is to engineer a microbe that produces an antimicrobial agent (e.g., an anti-biofilm enzyme, a bacteriocin, or a CRISPR-based kill switch) only when a defined combination of signals is present.
 
-In recent years synthetic‑biology tools have made it possible to turn harmless *Escherichia coli* Nissle 1917 (EcN) into a “living drug".
-The idea is simple: give the bacterium a genetic circuit, like an electronic circuit, i.e. a set of DNA parts that sense a signal, process it with logical rules (AND, OR, NOT …), and then turn on a therapeutic gene only when the right conditions are met.
-Many bacteria communicate with one another by releasing tiny chemical “talkers” called quorum‑sensing (QS) molecules. When a population becomes dense enough, the concentration of the molecule rises and activates a specific regulator protein inside the cells.
-Two potential intestinal microorganisms who can become pathogens are *Pseudomonas aeruginosa* and *Yersinia enterocolitica*.
-Both use QS molecules: *Pseudomonas aeruginosa* uses the molecule N-3-Oxododecanoyl-homoserine lactone (3OxoC12-AHL, C12) to trigger the activator LasR,
-*Yersinia enterocolitica* uses the molecule Homoserine Lactone (C6-AHL, C6), that is sensed by the repressor EsaR (Figure 1).
+In recent years, synthetic biology tools have made it possible to turn harmless Escherichia coli Nissle 1917 (EcN) into a “living drug.” The idea is to equip the bacterium with a genetic circuit, similar to an electronic circuit. This circuit consists of DNA parts that can sense signals, process them using logical rules (such as AND, OR, NOT), and activate a therapeutic gene only when the correct conditions are met.
+
+Many bacteria communicate with each other through a process called quorum sensing. In this process, each cell releases small signaling molecules into its environment. As the number of cells increases, the concentration of these molecules rises. Once a certain threshold concentration is reached, the molecules bind to specific proteins inside the cells, which then regulate gene expression. In this way, bacteria can coordinate their behavior depending on how many cells are present.
+
+Two intestinal microorganisms of interest that can become pathogenic are Pseudomonas aeruginosa and Yersinia enterocolitica. Both use quorum sensing systems based on N-acyl homoserine lactones (AHLs).
+
+Pseudomonas aeruginosa produces the signaling molecule C12 (3OxoC12-AHL), which binds to the transcriptional regulator LasR. Once activated, LasR induces expression of the enzyme LasI. LasI then produces more C12, creating a positive feedback loop that strengthens the signal as the population grows.
+
+In contrast, Yersinia enterocolitica produces a different AHL molecule (C6-AHL), which is sensed by the regulatory protein EsaR. This protein represses gene expression in the absence of C6, and this repression is relieved when C6 is present.
 
 ![image1](Figures/deliverable_system.png)
  **Figure 1** Transcriptional regulation of LasR and EsaR. Figure obtained from Li et al. (2025)
 
 ## **Objective**
-Your task is to design a genetic circuit that enables EcN to respond produce anti-microbial agents when C12 and C6 are present.
-You only have to design the genetic circuit, the gene producing the antimicrobial can is given (DspB, bactericidal peptide).
+Your task is to design a genetic circuit that enables EcN to respond produce anti-microbial agents when both C12 and C6 are present.
+You only have to design the genetic circuit, the gene producing the antimicrobial agent is given (DspB, bactericidal peptide).
 Your submission will include both a design proposal and a biological rationale.
 
 ## **Deliverables**
