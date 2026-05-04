@@ -7,7 +7,7 @@ study at the RWTH Aachen University. The aim of this practical class is twofold:
  2.  Give a basic introduction into boolean logic for the design of genetic circuits
 
 ## 1. Using git to access published work
-This small git tutorial is based on a course given by the [BioNT](https://carpentries-incubator.github.io/fair-research-software/index.html)
+This small git tutorial is based on a course given by the [BioNT](https://carpentries-incubator.github.io/fair-research-software/index.html).
 Git is a very commonly used version control system for text-based documents such as code. Git makes it easy to collaborate and 
 keep track of changes in a document. In the beginning it is difficult to grasp all the terms related to the version control system.
 For this tutorial, we will use the following terms:
@@ -23,7 +23,7 @@ For this tutorial, we will use the following terms:
 
 The best practise if you want to contribute to an exitising project is: fork the project to your own Github, and clone the forked project on your GitHub to your local machine
 If you are interested in how git works, please check out 
-[this](https://carpentries-incubator.github.io/fair-research-software/04-version-control.html) webpage.
+[this](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) webpage.
 
 FYI: git is the system, GitHub and GitLab are different servers for storing all the files. Most computational biotechnology
 work is shared on GitHub, but GitLab has more features. For your own work, we recommend using the [RWTH GitLab server](https://git.rwth-aachen.de/),
@@ -32,11 +32,11 @@ as this server is located in Germany and thus compliant with the German Act on d
 ### i. Install the requirements
 Before you start with working in this repository, please install the following requirements correctly on your system:
 
-- [Command line tool](https://carpentries-incubator.github.io/fair-research-software/installation-instructions.html#command-line-terminal) (such as Bash, Zsh or Git Bash)
-- [Git version control program](https://carpentries-incubator.github.io/fair-research-software/installation-instructions.html#git-version-control-tool)
-- [GitHub account](https://carpentries-incubator.github.io/fair-research-software/installation-instructions.html#github-account)
-- [Python 3.9](https://carpentries-incubator.github.io/fair-research-software/installation-instructions.html#python-3-distribution) (or any python version >3.9)
-- [Visual Studio Code (VS Code)](https://carpentries-incubator.github.io/fair-research-software/installation-instructions.html#visual-studio-code), or any other integrated development environment (IDE)
+- **Command line tool** (such as Bash, Zsh or Git Bash)
+- **Git version control program**
+- **GitHub account**
+- **Python 3.9** (or any python version >3.9)
+- **Visual Studio Code (VS Code)**, or any other integrated development environment (IDE)
 
 ### ii. Fork and clone this repository
 If you find an interesting repository on GitHub or GitLab, you want to get it on your local machine. There are multiple options
@@ -95,19 +95,19 @@ git remote -v
     ```
   
 ## 2. Understand and use boolean logic in genetic circuit design
-Now you are ready for start working with Python. Before you start, you do need to install all requirements.
+Now you are ready for start working with Python. Before you start, you do need to install all the required python packages.
 
 ### i. Installing all the dependencies in a virtual environment
 Python is a widely used programming language. One of the main reasons for its success is the large amount of available
-code in the form of packages. Python packages are small bundles of scripts which enable the user to use code from other in
+code in the form of packages. Python packages are small bundles of scripts which enable the user to use code from others in
 a simple way. For example, there are packages for handling tables (pandas) or to implement scientific and statistical methods (scipy).
 These packages are maintained by members of the community and are constantly updated. This can cause a problem for reproducibility: functionalities
 and implementations might change or be removed from one version to another. Therefore, researchers created isolated environments
 where they specify the versions of the packages required to run their code. These virtual environments (venv) in Python 
 are isolated workspaces where you can install packages without affecting the global Python installation. This helps in 
-managing dependencies for different projects, and ensures that you can transfer projects easily to other users. It ius therefor
+managing dependencies for different projects, and ensures that you can transfer projects easily to other users. It is therefore
 a good practice to create a single venv for each project you open in Python. More information about how to use venvs in Python
-can be found on [this webpage from the software incubators](https://carpentries-incubator.github.io/fair-research-software/05-reproducible-dev-environment.html).
+can be found on [this webpage from the software incubators](https://docs.python.org/3/library/venv.html).
 
 #### Creating a Virtual Environment
 
@@ -118,7 +118,7 @@ can be found on [this webpage from the software incubators](https://carpentries-
    ```
 3. Create a virtual environment:
    ```sh
-   python -m venv venv
+   python3 -m venv venv
    ```
    This creates a folder named `venv` that contains the isolated environment.
 
