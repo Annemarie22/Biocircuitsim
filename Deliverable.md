@@ -7,11 +7,9 @@ In recent years, synthetic biology tools have made it possible to turn harmless 
 
 Many bacteria communicate with each other through a process called quorum sensing. In this process, each cell releases small signaling molecules into its environment. As the number of cells increases, the concentration of these molecules rises. Once a certain threshold concentration is reached, the molecules bind to specific proteins inside the cells, which then regulate gene expression. In this way, bacteria can coordinate their behavior depending on how many cells are present.
 
-Two intestinal microorganisms of interest that can become pathogenic are Pseudomonas aeruginosa and Yersinia enterocolitica. Both use quorum sensing systems based on N-acyl homoserine lactones (AHLs).
-
-Pseudomonas aeruginosa produces the signaling molecule C12 (3OxoC12-AHL), which binds to the transcriptional regulator LasR. Once activated, LasR induces expression of the enzyme LasI. LasI then produces more C12, creating a positive feedback loop that strengthens the signal as the population grows.
-
-In contrast, Yersinia enterocolitica produces a different AHL molecule (C6-AHL), which is sensed by the regulatory protein EsaR. This protein represses gene expression in the absence of C6, and this repression is relieved when C6 is present.
+Two intestinal microorganisms of interest that can become pathogenic are *Pseudomonas aeruginosa* and *Yersinia enterocolitica*. Both use quorum sensing systems based on N-acyl homoserine lactones (AHLs).
+*Pseudomonas aeruginosa* produces the signaling molecule C12 (3OxoC12-AHL), which binds to the transcriptional regulator LasR. Once activated, LasR induces expression of the enzyme LasI. LasI then produces more C12, creating a positive feedback loop that strengthens the signal as the population grows.
+In contrast, *Yersinia enterocolitica* produces a different AHL molecule (C6-AHL), which is sensed by the regulatory protein EsaR. This protein represses gene expression in the absence of C6, and this repression is relieved when C6 is present.
 
 ![image1](Figures/deliverable_system.png)
  **Figure 1** Transcriptional regulation of LasR and EsaR. Figure obtained from Li et al. (2025)
