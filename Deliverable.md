@@ -1,4 +1,4 @@
-# **Assignment: Designing a Genetic Circuit for Hierarchical Carbon Utilization in *Pseudomonas putida***
+# **Assignment: Designing a Genetic Circuit for live biotherapeutics organism *Escherichia coli Nissle 1917 (EcN)* **
 
 ## **Background**
 Engineered probiotics are emerging as “live biotherapeutics”. Because of complex interactions in microbial communities, a harmless microbe can become a pathogen in the presence of a specific microbial species or when environmental conditions change. In such cases, it is desirable to have a therapeutic that is only activated under very specific conditions. One possible solution is to engineer a microbe that produces an antimicrobial agent (e.g., an anti-biofilm enzyme, a bacteriocin, or a CRISPR-based kill switch) only when a defined combination of signals is present.
@@ -23,7 +23,7 @@ Your submission will include both a design proposal and a biological rationale.
 You must submit the following:
 
 1. **Genetic Circuit Design (Core Requirement)**  
-   - Define the logic gates and Boolean logic required for pathway regulation.
+   - Define the truth table and Boolean logic required for pathway regulation.
    - Sketch a genetic interaction diagram, showing key components (e.g., promoters, regulators, repressors, activators) and their relationships.
    - Explain your choices for the promoter and regulator, justifying how they lead to production of the antimicrobial.
 
@@ -40,7 +40,7 @@ You must submit the following:
 
 | **Category**                 | **Criteria**                                                  | **Points** |
 |------------------------------|---------------------------------------------------------------|------------|
-| **Genetic Circuit Design**   | Clear and correct truth table, Boolean logic, and logic gates | 1          |
+| **Genetic Circuit Design**   | Clear and correct truth table and Boolean logic               | 1          |
 |                              | Logical and minimalistic genetic interaction design           | 1          |
 |                              | Justification of promoter and regulator choice                | 1          |
 | **Biological Rationale**     | Clear and well-supported discussion of selected option        | 3          |
