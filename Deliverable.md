@@ -1,4 +1,4 @@
-# **Assignment: Designing a Genetic Circuit for live biotherapeutics organism *Escherichia coli Nissle 1917 (EcN)* **
+# **Quiz S3: Designing a Genetic Circuit for live biotherapeutics organism *Escherichia coli Nissle 1917 (EcN)* **
 
 ## **Background**
 Engineered probiotics are emerging as “live biotherapeutics”. Because of complex interactions in microbial communities, a harmless microbe can become a pathogen in the presence of a specific microbial species or when environmental conditions change. In such cases, it is desirable to have a therapeutic that is only activated under very specific conditions. One possible solution is to engineer a microbe that produces an antimicrobial agent (e.g., an anti-biofilm enzyme, a bacteriocin, or a CRISPR-based kill switch) only when a defined combination of signals is present.
